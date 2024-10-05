@@ -68,18 +68,18 @@ const SignIn = () => {
             isLoading={isSubmitting}
           />
           <View className="flex justify-center pt-5 flex-row gap-2">
-            <Text className="text-md text-gray-100 font-pregular">
+            <Text className="text-lg text-gray-100 font-pregular">
               Don't have an account?
             </Text>
             <Link
               href="/sign-up"
-              className="text-md font-psemibold text-secondary"
+              className="text-lg font-psemibold text-secondary"
             >
               Signup
             </Link>
           </View>
           <View className="flex justify-center pt-5 flex-row gap-2">
-            <Text className="text-sm text-blue-400 font-pregular">
+            <Text className="text-lg text-blue-400 font-pregular">
               Forgot your password?
             </Text>
           </View>
